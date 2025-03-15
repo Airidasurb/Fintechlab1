@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         tvMain = findViewById(R.id.tvMain);
 
-        Button changeColorButton = findViewById(R.id.btnChangeColor); //komentaras
+        Button changeColorButton = findViewById(R.id.btnChangeColor);
         changeColorButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
